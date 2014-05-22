@@ -5,4 +5,4 @@ middle = gets.chomp
 puts 'What is your last name?'
 last = gets.chomp
 
-puts 'It\'s nice to meet you, ' + first + ' ' + middle + ' ' + last
+puts 'It\'s nice to meet you, ' + first + ' ' + middle + '' + last
