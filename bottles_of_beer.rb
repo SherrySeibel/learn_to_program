@@ -17,8 +17,7 @@ while bottles < 100
 		 if bottles == 1
 			puts bottles.to_s + " bottle of beer on the wall! "
 			puts bottles.to_s + " bottle of beer! Take one down, pass it around, "
-			puts "no more bottles of beer on the wall!"
-				
+			puts "no more bottles of beer on the wall!"	
 			break
 		end
 end
