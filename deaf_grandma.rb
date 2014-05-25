@@ -8,7 +8,6 @@ while answer != answer.upcase
 end
 	while answer == answer.upcase && answer != "BYE"
 		puts "NO, NOT SINCE " + (rand(1930..1951).to_s + "!")
-		answer = gets.chomp
-	
+		answer = gets.chomp	
 end
 	puts "FINE! LET GRANDMA DIE ALONE!"
