@@ -1,9 +1,9 @@
 # Deaf grandma program -- fixed
 
 
+puts"TELL YOUR GRAMDMA SOMETHING!"
 
 while true
-	puts"TELL YOUR GRAMDMA SOMETHING!"
 	answer = gets.chomp
 	puts ""
 		if answer == "BYE"
