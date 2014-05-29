@@ -11,7 +11,7 @@ while true
 		break
 	end
 	if answer == answer.upcase
-		puts "NO, NOT SINCE " + (rand(1930..1951).to_s + "!")
+		puts "NO, NOT SINCE " + (rand(1930...1951).to_s + "!") # '..' includes end number, '...' does not.
 		puts ""
 	elsif answer == answer.downcase
 	 	 puts "HUH?! SPEAK UP SONNY!!"
@@ -33,7 +33,7 @@ while answer != answer.upcase
 	answer = gets.chomp
 end
 	while answer == answer.upcase && answer != "BYE"
-		puts "NO, NOT SINCE " + (rand(1930..1951).to_s + "!")
+		puts "NO, NOT SINCE " + (rand(1930...1951).to_s + "!")
 		answer = gets.chomp	
 	end
 	puts "FINE! LET GRANDMA DIE ALONE!"
