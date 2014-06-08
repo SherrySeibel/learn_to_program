@@ -13,16 +13,19 @@ class Sort
 	private
 
 	def user_prompt
-		puts "Enter some words to be sorted: "
+		puts "Enter some words to be sorted	: "
+
 	end
 
 	def collect_n_store_words
-		loop do 
+		loop do
+			print "Enter word > " 
 			words = gets.chomp
 			if words.empty?
-				break
+				break 
+				
 			else
-			@words_to_sort << words			
+				@words_to_sort << words			
 			end
 		end
 	end
