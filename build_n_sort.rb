@@ -13,7 +13,7 @@ class Sort
 	private
 
 	def user_prompt
-		puts "Enter some words to be sorted	: "
+		puts "Enter some words to be sorted: "
 
 	end
 
@@ -22,8 +22,7 @@ class Sort
 			print "Enter word > " 
 			words = gets.chomp
 			if words.empty?
-				break 
-				
+				break 	
 			else
 				@words_to_sort << words			
 			end
