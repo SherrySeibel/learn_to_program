@@ -30,7 +30,11 @@ class Sort
 	end
 
 	def sort_n_display_words
-		puts @words_to_sort.sort
+		if @words_to_sort.empty?
+			puts "No words to sort."
+		else 
+			puts @words_to_sort.sort
+		end
 	end
 end
 
