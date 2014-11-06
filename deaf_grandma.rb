@@ -1,13 +1,13 @@
 # Deaf grandma program -- fixed
 
 
-puts"TELL YOUR GRAMDMA SOMETHING!"
+puts"TELL YOUR GRANDMA SOMETHING!"
 
 while true
 	answer = gets.chomp
 	puts ""
 		if answer == "BYE"
-		puts "FINE LET GRAMDMA DIE ALONE!"
+		puts "FINE LET GRANDMA DIE ALONE!"
 		break
 	end
 	if answer == answer.upcase
@@ -18,14 +18,14 @@ while true
 	 	 puts ""
 	end
 end
-	 	
 
 
-=begin 
+
+=begin
 
 There was a glitch in the original code. I have since fixed it and added conditionals
 
-puts"TELL YOUR GRAMDMA SOMETHING!"
+puts"TELL YOUR GRANDMA SOMETHING!"
 answer = gets.chomp
 
 while answer != answer.upcase
@@ -34,7 +34,7 @@ while answer != answer.upcase
 end
 	while answer == answer.upcase && answer != "BYE"
 		puts "NO, NOT SINCE " + (rand(1930...1951).to_s + "!")
-		answer = gets.chomp	
+		answer = gets.chomp
 	end
 	puts "FINE! LET GRANDMA DIE ALONE!"
 =end
